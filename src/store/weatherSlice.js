@@ -4,7 +4,7 @@ const weatherSlice = createSlice({
     name: "weather",
     initialState: {
         search: "",
-        city:null,
+        city:null
     },
     reducers: {
         add(state,actions){

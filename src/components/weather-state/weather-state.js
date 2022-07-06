@@ -11,7 +11,7 @@ const WeatherState = () => {
       const {current} = await getWeather(city.lat, city.lng);
        setCurrent({...current});
     }
-  });
+  }, [city]);
 
   React.useEffect(() => {
     fetchCityWeather();

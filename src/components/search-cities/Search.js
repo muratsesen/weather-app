@@ -13,7 +13,7 @@ const Search = () => {
   };
   return (
     <>
-      <input value={search} onChange={handleOnChange} />
+    <label htmlFor="search">Search City { }</label>
       <select onChange={handleOnChange} name="cars" id="cars">
         {cities.map((city) => (
           <option key={city.name} value={city.name}>
