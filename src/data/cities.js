@@ -1,3 +1,4 @@
+//TODO: Add all cities
 export const cities = [
   { name: "Adana", lat: 37.0, lng: 35.321335 },
   { name: "Afyonkarahisar", lat: 38.756886, lng: 30.538704 },
